@@ -1,0 +1,33 @@
+{
+    "name": "zarrin/presenter",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Mehdi Zarrin",
+            "email": "mehdi.zarrin@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/zarrin/presenter",
+    "keywords": ["Laravel", "Presenter"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0",
+        "phpspec/phpspec": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zarrin\\Presenter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zarrin\\Presenter\\Tests\\": "tests"
+        }
+    }
+}
